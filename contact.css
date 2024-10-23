@@ -27,13 +27,7 @@
    
     
 }
-.button{
-    border-radius: 50px;
-    width: 80px;
-    height: 80px;
-    background-color: red;
-    font-size: 18px;
-}
+
 
 
 .nav-item a:hover {
@@ -63,13 +57,13 @@
         list-style: none;
         margin-right: 30px;
     }
-.head{
+   
+.contant{
     width: 100%;
     height: 600px;
-    text-align: center;
+    background-image: url(https://images.pexels.com/photos/1493839/pexels-photo-1493839.jpeg?auto=compress&cs=tinysrgb&w=1280);
     background-attachment: fixed;
-    background-color: black;
-    background-image: url(https://images.pexels.com/photos/11578915/pexels-photo-11578915.jpeg?auto=compress&cs=tinysrgb&w=1280);
+    color:white;
 }
 body{
     overflow-x: hidden;
@@ -80,32 +74,25 @@ a{
   text-decoration: none;  
   color: white;
 }
-.second{
+.pic{
     width: 100%;
     height: 500px;
-    background-color: black;
     display: flex;
-    text-align:left;
+    font-size: 20px;
+    justify-content: space-between;
+    background-color: rgb(126, 218, 110);
+    color:black;
     
+   
 }
-.s3{
-    width: 300px;
-    
-    color: white;
+.p1{
+    margin-top: 30px;
+    margin-left: 150px;
     font-size: 30px;
-    margin-left: 160px;
-   margin-top: 10px;
 }
-.s2{
-    margin-left: 130px;
-    margin-top: 50px;
-
-}
-.center{
-    width: 100%;
-    height: 500px;
-    display: flex;
-    background-color: white;
+iframe{
+    border-radius: 10px;
+    margin-right: 200px;
 }
 .third{
     
@@ -137,3 +124,5 @@ a{
     margin-top: 50px
     ;
 }
+
+

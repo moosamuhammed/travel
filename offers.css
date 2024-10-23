@@ -3,6 +3,7 @@
    
     overflow: hidden;
     justify-content: space-between;
+    
 }
 
 /* Styling for the navigation links */
@@ -27,13 +28,8 @@
    
     
 }
-.button{
-    border-radius: 50px;
-    width: 80px;
-    height: 80px;
-    background-color: red;
-    font-size: 18px;
-}
+
+
 
 
 .nav-item a:hover {
@@ -63,49 +59,79 @@
         list-style: none;
         margin-right: 30px;
     }
-.head{
+    body{
+        overflow-x: hidden;
+        margin: 0%;
+        padding: 0px;
+    }
+    a{
+      text-decoration: none;  
+      color: white;
+    }   
+
+
+
+
+.main{
     width: 100%;
-    height: 600px;
-    text-align: center;
+    height:600px ;
     background-attachment: fixed;
-    background-color: black;
-    background-image: url(https://images.pexels.com/photos/11578915/pexels-photo-11578915.jpeg?auto=compress&cs=tinysrgb&w=1280);
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    background-image: url(https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1280);
 }
-body{
-    overflow-x: hidden;
-    margin: 0%;
-    padding: 0px;
+.first{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
 }
-a{
-  text-decoration: none;  
-  color: white;
+.f1{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-left: 70px;
+
+}
+.f2{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-right: 70px;
+}
+.hove:hover{
+    color: red;
 }
 .second{
     width: 100%;
-    height: 500px;
-    background-color: black;
+    height: 550px;
     display: flex;
-    text-align:left;
-    
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.s1{
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.s2{
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    margin-top: 70px;
 }
 .s3{
     width: 300px;
-    
-    color: white;
-    font-size: 30px;
-    margin-left: 160px;
-   margin-top: 10px;
-}
-.s2{
-    margin-left: 130px;
-    margin-top: 50px;
-
-}
-.center{
-    width: 100%;
     height: 500px;
-    display: flex;
-    background-color: white;
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 50px;
 }
 .third{
     
