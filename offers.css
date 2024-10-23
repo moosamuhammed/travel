@@ -3,6 +3,7 @@
    
     overflow: hidden;
     justify-content: space-between;
+    
 }
 
 /* Styling for the navigation links */
@@ -27,13 +28,8 @@
    
     
 }
-.button{
-    border-radius: 50px;
-    width: 80px;
-    height: 80px;
-    background-color: red;
-    font-size: 18px;
-}
+
+
 
 
 .nav-item a:hover {
@@ -63,46 +59,79 @@
         list-style: none;
         margin-right: 30px;
     }
-.homepage{
+    body{
+        overflow-x: hidden;
+        margin: 0%;
+        padding: 0px;
+    }
+    a{
+      text-decoration: none;  
+      color: white;
+    }   
+
+
+
+
+.main{
     width: 100%;
-    height:700px;
-    background-image: url(https://images.pexels.com/photos/5417956/pexels-photo-5417956.jpeg?auto=compress&cs=tinysrgb&w=1280);
+    height:600px ;
     background-attachment: fixed;
     text-align: center;
+    font-size: 70px;
     color: white;
+    background-image: url(https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1280);
 }
-body{
-    overflow-x: hidden;
-    margin: 0%;
-    padding: 0px;
+.first{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
 }
-a{
-  text-decoration: none;  
-  color: white;
+.f1{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-left: 70px;
+
+}
+.f2{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-right: 70px;
+}
+.hove:hover{
+    color: red;
 }
 .second{
-width: 100%;
-height: 600px;
-display: flex;
-background-color: black;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
 }
 .s1{
-    width: 350px;
-    height: 550px;
-    background-color: black;
-    color: white;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 30px;
 }
 .s2{
-    width: 350px;
-    height: 550px;
-    background-color: black;
-    color: white;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    margin-top: 70px;
 }
 .s3{
-    width: 500px;
-    height: 550px;
-    background-color: black;
-    color: white;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 50px;
 }
 .third{
     
@@ -134,9 +163,3 @@ background-color: black;
     margin-top: 50px
     ;
 }
-.mod:hover{
-    color:black;
-    background-color: orange;
-
-}
-
