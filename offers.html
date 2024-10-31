@@ -3,63 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>Document</title>
     <link rel="stylesheet" href="./offers.css">
+   
+    <style>@media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+          
+          
+        }}
+       </style>
 </head> 
 <body>
     <div class="main">
-        <nav class="navbar">
-            <a   href="./home.html"> <h1 style="font-size: 30px;" >FLY DESTINO </h1></a>
-            
-                <ul class="nav-list" style="margin-top: 10px;">                                                                                                                                                            
-                    <li class="nav-item"><a href="./home.html">Home</a></li>
-                    <li class="nav-item"><a href="./services.html">Services</a></li>
-                    <li class="nav-item"><a href="./offers.html">Offers</a></li>
-                    <li class="nav-item"><a href="./contact.html">contact</a></li>
-                   
-                </ul></nav>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./home.html">Fly destino</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="./services.html">service</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-black" href="./offers.html" >
+                      Offers
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./home.html">Home</a></li>
+                      <li><a class="dropdown-item" href="./services.html">Service</a></li>
+                      <li><a class="dropdown-item" href="./offers.html">Offers</a></li>
+                      <li><a class="dropdown-item" href="./contact.html">Contact</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="./contact.html">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
 
-            <h1>Offers</h1>
+            <h1 class="fs-4">Offers</h1>
     </div>
-    <h1 style="font-size: 90px;color: black;text-align: center;">Dipawali Offers </h1>
-    <div class="first">
-        <div class="f1">
-            <img src="https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=400" alt="o1" width="500px" height="400px">
+    <h1 class="fs-4 text-center" >Dipawali Offers </h1>
+    <div class="row bg-black">
+        <div class="col-lg-6 menu text-white text-center mt">
+            <img src="https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=400" alt="o1" width="300px" height="300px">
             <h1>bali package</h1>
             <h2 class="hove">only - 19999/-</h2>
         </div>
-        <div class="f2">
-            <img src="https://images.pexels.com/photos/15463942/pexels-photo-15463942/free-photo-of-munkebu-cabin-in-moskenes-island-lofoten.jpeg?auto=compress&cs=tinysrgb&w=400" alt="o2" width="500px" height="400px">
+        <div class="col-lg-6 text-white text-center mt">
+            <img src="https://images.pexels.com/photos/15463942/pexels-photo-15463942/free-photo-of-munkebu-cabin-in-moskenes-island-lofoten.jpeg?auto=compress&cs=tinysrgb&w=400" alt="o2" width="300px" height="300px">
             <h1>kazakisthan package</h1>
             <h2 class="hove">only - 20999/-</h2>
         </div>
     </div>
-    <div class="second">
-     <div class="s1">
+    <div class="row bg-black">
+     <div class="col-lg-4 menu text-center text-white mt">
         <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRVqBi5Wravuq1e1RenxH3posowbhUNnnM0K7h19y_vbnPYMnxam5utCNaGCwWc2d6EJRhPcr550ndE7IaJ7zV-PvUsTf7gu532XmoyMQ" alt="o3" width="300px" height="300px">
             <h1>lakshyadeep package</h1>
             <h2 class="hove">only - 9999/-</h2>
      </div>
-     <div class="s2">
+     <div class="col-lg-4 text-center text-white mt">
         <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ1wCPc-TDHU7wbvjS3EWlCrirHtnv4T_5fKhokKI-hvz0ZMrnws5UM0bLnufFt2JH5LiUQKoXtneb9bc2jGIDuJpYJPtQWkSqbQoVSCw" alt="o4" width="300px" height="300px">
             <h1>munnar package</h1>
             <h2 class="hove">only - 4999/-</h2>
             </div>
-            <div class="s3">
+            <div class="col-lg-4 right text-center text-white mt">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR78I1gS9q5Fg4dPUjcT1--R-vFvtYg9nMsEg&s" alt="o5" width="300px" height="300px">
                     <h1>umrah package</h1>
                     <h2 class="hove">only - 69999/-</h2>
                     </div>
     </div>
-    <div class="third">
-        <div class="t1">
+    <div class=" row bg-black text-white ">
+        <div class=" col-lg-4 menu w   mt text-center">
             <h1>About Us</h1>
             <h4>So much more is included in your holiday prices with flydestino tours & Travels. We use our skills to buy the best service for your money. So you may look forward to a great holiday along with excellent standard of service.</h4>
 
                 
 
         </div>
-        <div class="t2">
+        <div class=" col-lg-4 mt text-center">
             <h1>Services</h1>
            <h4>Resort Reservation<br>
         Air/Train tickets<br>
@@ -69,7 +105,7 @@ Costomized tours <br>for any groups<br>
 Educational tours<br>
 International And<br> Domestic Holidays</h4>
         </div>
-        <div class="t3">
+        <div class=" col-lg-4 right mt text-center">
             <h1>Contact Us</h1>
             <h4>📞0565316797<br>
                 ✉ flydestinouae@gmail.com<br>
@@ -79,6 +115,8 @@ International And<br> Domestic Holidays</h4>
            
         </div>
     </div>
-    
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,64 +1,4 @@
-.navbar {
-    display: flex;
-   
-    overflow: hidden;
-    justify-content: space-between;
-}
 
-/* Styling for the navigation links */
-.nav-list {
-    display: flex;
-    justify-content: right;
-    
-}
-
-.nav-item {
-    margin: 0; 
-    text-align: right;
-   
-}
-
-.nav-item a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-   
-    
-}
-.button{
-    border-radius: 50px;
-    width: 80px;
-    height: 80px;
-    background-color: red;
-    font-size: 18px;
-}
-
-
-.nav-item a:hover {
-    background-color: #575757;
-   
-}
-/* Responsive design: stack items on small screens */
-@media (max-width: 600px) {
-    .nav-list {
-        flex-direction: column;
-        text-align: center;
-        
-    }
-    }
-
-    .nav-item a {
-        padding: 10px;
-        font-size: 18px;
-        
-    }
-.logo{
-        max-height: 70px; /* Adjust based on your logo's size */
-        width: 90px;
-        margin-bottom:-60px;
-    }
     ul{
         list-style: none;
         margin-right: 30px;
@@ -139,4 +79,16 @@ background-color: black;
     background-color: orange;
 
 }
-
+.mar{
+    margin-left: 100px;
+}
+.w{
+    width: 20%;
+}
+.mt{
+    margin-top: 50px;
+}
+.mtr{
+    margin-top: 200px;
+    font-size: 60px;
+}
