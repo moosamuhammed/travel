@@ -1,58 +1,4 @@
-.navbar {
-    display: flex;
-   
-    overflow: hidden;
-    justify-content: space-between;
-}
 
-/* Styling for the navigation links */
-.nav-list {
-    display: flex;
-    justify-content: right;
-    
-}
-
-.nav-item {
-    margin: 0; 
-    text-align: right;
-   
-}
-
-.nav-item a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-   
-    
-}
-
-
-
-.nav-item a:hover {
-    background-color: #575757;
-   
-}
-/* Responsive design: stack items on small screens */
-@media (max-width: 600px) {
-    .nav-list {
-        flex-direction: column;
-        text-align: center;
-        
-    }
-    }
-
-    .nav-item a {
-        padding: 10px;
-        font-size: 18px;
-        
-    }
-.logo{
-        max-height: 70px; /* Adjust based on your logo's size */
-        width: 90px;
-        margin-bottom:-60px;
-    }
     ul{
         list-style: none;
         margin-right: 30px;
@@ -90,10 +36,7 @@ a{
     margin-left: 150px;
     font-size: 30px;
 }
-iframe{
-    border-radius: 10px;
-    margin-right: 200px;
-}
+
 .third{
     
     width: 100%;
@@ -124,5 +67,10 @@ iframe{
     margin-top: 50px
     ;
 }
-
+.mt{
+    margin-top: 50px;
+}
+.mb{
+    margin-bottom: 50px;
+}
 

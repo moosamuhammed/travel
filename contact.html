@@ -3,43 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <title>Document</title>
     <link rel="stylesheet" href="./contact.css">
+    
+    <style>@media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+          
+          
+        }}
+       </style>
 </head>
 <body>
+    <div class="container-fluid">
     <div class="contant">
-        <nav class="navbar">
-            <a   href="./home.html"> <h1 >FLY DESTINO</h1></a>
-            
-                <ul class="nav-list">                                                                                                                                                            
-                    <li class="nav-item"><a href="./home.html">Home</a></li>
-                    <li class="nav-item"><a href="./services.html">Services</a></li>
-                    <li class="nav-item"><a href="./offers.html">Offers</a></li>
-                    <li class="nav-item"><a href="./contact.html">contact</a></li>
-                   
-                </ul></nav>    
-                  <h1 style="text-align: center;font-size: 120px;margin-top: 150px;"> Contact</h1>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./home.html">Fly destino</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="./services.html">service</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-black" href="./offers.html" >
+                      Offers
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./home.html">Home</a></li>
+                      <li><a class="dropdown-item" href="./services.html">Service</a></li>
+                      <li><a class="dropdown-item" href="./offers.html">Offers</a></li>
+                      <li><a class="dropdown-item" href="./contact.html">Contact</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="./contact.html">Contact</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+                  <h1 class="fs-2 text-center"> Contact</h1>
     </div>
-    <div class="pic">
-        <div class="p1">
+    <div class="row bg-success">
+        <div class="col-lg-6 menu text-center mt mb">
             <h1>Contact Us</h1>
-            <h4 style="text-align: center;">📞0565316797<br>
+            <h4>📞0565316797<br>
                 ✉ flydestinouae@gmail.com<br>
-               📍shop No:10A,<br>al khazna center,<br>al karama,<br>Dubai-UAE,Dubai,<br>United Arab Emirates </h4>
+               📍shop No:10A,<br>al khazna center,<br>al karama,Dubai-UAE,<br>Dubai,United <br>Arab Emirates </h4>
         </div>
-        <div class="p2" style="margin-top:100px;">
-        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.561954259478!2d77.2052942740907!3d28.552883487695688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce212c5f06463%3A0x209cf2944729e16c!2sFlyDestino!5e0!3m2!1sen!2sin!4v1729658756253!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="col-lg-6  text-center mt mb" >
+        <iframe style="border-radius: 10px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.561954259478!2d77.2052942740907!3d28.552883487695688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce212c5f06463%3A0x209cf2944729e16c!2sFlyDestino!5e0!3m2!1sen!2sin!4v1729658756253!5m2!1sen!2sin" width="200" height="250"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     </div>
-    <div class="third">
-        <div class="t1">
+    <div class="row bg-black ">
+        <div class="col-lg-4 menu text-white text-center mt">
             <h1>About Us</h1>
             <h4>So much more is included in your holiday prices with flydestino tours & Travels. We use our skills to buy the best service for your money. So you may look forward to a great holiday along with excellent standard of service.</h4>
 
                 
 
         </div>
-        <div class="t2">
+        <div class="col-lg-4 text-white text-center mt">
             <h1>Services</h1>
            <h4>Resort Reservation<br>
         Air/Train tickets<br>
@@ -49,7 +86,7 @@ Costomized tours <br>for any groups<br>
 Educational tours<br>
 International And<br> Domestic Holidays</h4>
         </div>
-        <div class="t3">
+        <div class="col-lg-4 text-white text-center mt">
             <h1>Contact Us</h1>
             <h4>📞0565316797<br>
                 ✉ flydestinouae@gmail.com</h4>
@@ -59,6 +96,8 @@ International And<br> Domestic Holidays</h4>
            
         </div>
     </div>
-    
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>
